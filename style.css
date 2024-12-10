@@ -1,0 +1,154 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+.container {
+    background: white;
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.container > h1 {
+    margin: 20px 0;
+    font-size: 40px;
+    
+}
+
+
+body {
+    background: #e3e5d8;
+    display: flex;
+    justify-content: center;
+    min-height:100hv;
+    font-family: "Parkinsans", sans-serif;
+
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+
+.time {
+    background-color: rgb(246, 233, 235);
+    padding: 20px ;
+    margin-top:20px ;
+}
+
+.time ul {
+    margin-left: 20px; 
+    }
+
+    .time h2 {
+        color: #7a425a;
+        margin-bottom:20px;
+    }
+
+    .time ul li {
+        margin-bottom: 10px;
+        
+    }
+    /* card 
+    .card {
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: olivedrab;
+        margin-top: 20px;
+       
+    }
+
+    .card ul {
+        border: 1px solid #7a425a;
+        display: flex;
+        justify-content: center;
+        background: #e3e5d8;
+        gap: 30px;
+        list-style: none;
+        height: 100px;
+        width: 50%;
+        align-items: center;
+        
+    }
+    */
+
+
+    .heart ul li {
+            margin:20px 0 20px 20px;
+            padding-left: 15px;
+
+
+    }
+
+   .heart ul li::marker {
+        color: #a78579;
+    }
+
+
+
+
+
+    .heart {
+        margin-top:10px;
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 20px;
+    }
+
+    .heart >h2 {
+        color: #a78579;
+    }
+
+   
+    .main {
+       padding:30px 0 5px;
+       border-bottom: 1px solid lightgray;
+      
+    }
+
+    .main ol li {
+        margin:20px 20px;
+        padding-left: 10px;
+    }
+
+    .main ol li::marker {
+        color: #a78579;
+    }
+
+ 
+    .n-data {
+        display: flex;
+        padding: 10px;
+    }
+
+    .n-data > div {
+       flex: 1;
+       }
+    
+       .n-data p:not(:last-child) {
+        border-bottom: 1.5px solid lightgray;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .end h2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color:#7a425a;
+    }
+
+    .n-data div:nth-child(2) p {
+        color: #371e29;
+        
+    }
+
+    .n-data p {
+        font-weight: bold;
+    }
